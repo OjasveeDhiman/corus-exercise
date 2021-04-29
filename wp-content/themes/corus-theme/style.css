@@ -1,0 +1,34 @@
+.slider-title{
+    text-align: center;
+}
+.corus-gallery-slider{
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+}
+.slider_item img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.slick-arrow{
+    padding: 5px;
+    font-size: 12px;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    border-radius: 5px;
+    z-index: 1;
+    transition: all 0.3s linear;
+}
+.slick-arrow:hover{
+    transform:scale(1.1);
+}
+button.slick-prev.slick-arrow {
+    left: 15px;
+}
+button.slick-next.slick-arrow {
+    right: 15px;
+}
